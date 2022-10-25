@@ -1,0 +1,673 @@
+body {
+  font-family: "Poppins";
+  max-width: 100%;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+li,
+td,
+.navLogo,
+.socialMedia li,
+.customButton {
+  cursor: pointer;
+}
+
+ul,
+ul li,
+.navLogo,
+#firstImg,
+#intro p,
+.customButton,
+#inputStyle,
+#shortenIt,
+.input-group {
+  display: inline-block;
+}
+
+.customButton:hover {
+  background-color: #14e5e5;
+}
+
+td:hover {
+  color: #1bd2d2;
+}
+
+.socialMedia {
+  display: flex;
+}
+
+.socialMedia li svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.socialMedia li:hover {
+  color: #1bd2d2;
+}
+
+#intro {
+  padding-bottom: 10%;
+  display: flex;
+}
+
+#navBar,
+#myIntro {
+  padding: 2% 8%;
+}
+
+#myIntro {
+  display: flex;
+  flex-direction: column;
+}
+
+#myIntro p {
+  width: 400px;
+}
+
+#loginRegist {
+  float: right;
+}
+
+#myIntro h1 {
+  margin-top: 5%;
+  font-weight: 900;
+  font-size: 5vw;
+  line-height: 1.1;
+  display: inline-block;
+}
+
+#navBar ul li {
+  margin-right: 2rem;
+  color: #999999;
+}
+
+#navBar ul li:hover {
+  color: #000000;
+}
+
+#myMenu {
+  display: inline;
+}
+
+hr {
+  display: none;
+}
+
+.navLogo,
+.footerLogo {
+  vertical-align: middle;
+}
+
+#firstImg {
+  float: right;
+  margin-right: -5rem;
+  margin-top: 2rem;
+  position: relative;
+  right: -20%;
+}
+
+#firstImg img {
+  height: 25rem;
+}
+
+p {
+  color: #999999;
+  font-weight: 500;
+}
+
+.customButton {
+  background-color: #1bd2d2;
+  padding: 0.6rem;
+  text-align: center;
+  color: white;
+}
+
+#signUpButton {
+  margin-top: -10px;
+}
+
+#getStartedButton {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#loginRegist {
+  display: flex;
+}
+
+#input {
+  text-align: center;
+  background-color: #eff1f5;
+  padding-bottom: 0.5rem;
+}
+
+#inputStyle {
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: #393054;
+  background-image: url("./images/bg-shorten-desktop.svg");
+  position: relative;
+  width: 84%;
+  top: -72px;
+  display: inline-flex;
+}
+
+#shortenLink {
+  border-radius: 5px;
+}
+
+.input-group {
+  width: inherit;
+  margin: 0 !important;
+}
+
+.inputError:focus {
+  outline: #e06262 solid 4px;
+}
+
+#error {
+  color: #e06262;
+  text-align: start;
+  margin-top: 1%;
+  position: absolute;
+}
+
+.selectedCopy {
+  background-color: #393054;
+  pointer-events: none;
+}
+
+#history {
+  text-align: center;
+  background-color: #ffffff;
+  display: inline;
+  position: relative;
+  top: -4rem;
+}
+
+.original {
+  margin: 1% 8% 1% 8%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 0.5% 1.5% 0.5% 1.5%;
+}
+
+.original div {
+  display: inline-block;
+  color: #000000;
+}
+
+.original .historyFirstPart {
+  width: 65%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.original hr {
+  display: none;
+}
+
+.original .historySecondPart {
+  width: 30%;
+  text-align: end;
+  margin-left: 5%;
+  color: #1bd2d2;
+  white-space: nowrap;
+}
+
+.original .historySecondPart .shortenUrl {
+  color: #1bd2d2;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.historyFirstPart::selection {
+  background-color: #1bd2d2;
+  color: #ffffff;
+}
+
+.historyFirstPart {
+  user-select: all;
+}
+
+.copyButton .customButton {
+  color: #ffffff;
+  margin: 10px 0 10px 30px;
+  width: 50%;
+}
+
+#categories {
+  background-color: #eff1f5;
+  padding: 0 10% 10% 10%;
+  display: grid;
+  justify-items: center;
+}
+.form-control {
+  width: 99% !important;
+  padding-left: 20px;
+  height: 44px;
+}
+.form-control::placeholder {
+  color: #999999;
+}
+
+#title {
+  padding-top: 1rem;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#secondPart p {
+  text-align: center;
+  width: 470px;
+}
+
+.avatar {
+  padding-top: 6%;
+  margin-left: 5%;
+  margin-top: -11%;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #393054;
+}
+
+.avatar img {
+  height: 60%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+#cards {
+  margin: auto;
+  text-align: center;
+}
+
+#myCards {
+  display: inline-flex;
+  text-align: start;
+}
+
+#myCards .card:first-of-type {
+  bottom: 35px;
+}
+
+#myCards .card:last-of-type {
+  top: 35px;
+}
+
+.card {
+  margin: 12% 2% 0 0;
+  max-width: 20rem !important;
+  position: relative;
+}
+
+#myLine {
+  width: 100%;
+}
+
+#line {
+  height: 0.5rem;
+  background-color: #14e5e5;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: -10rem;
+}
+
+.unDisplayError,
+#on800px,
+#menuButton {
+  display: none;
+}
+.menuDisAppear {
+  display: none !important;
+}
+
+#footer {
+  background-image: url("./images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+  color: #ffffff;
+  background-color: #393054;
+  text-align: center;
+}
+
+#footerHeader {
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #232028;
+  padding: 2% 8%;
+  color: #ffffff;
+  display: flex;
+}
+
+.footerLogo {
+  font-family: "Raleway";
+  width: 20%;
+}
+
+#footerDetails {
+  width: 60%;
+  margin-left: 10%;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5rem 0;
+}
+
+th {
+  padding-bottom: 1rem;
+}
+
+td {
+  padding-top: 2%;
+  color: #999999;
+}
+
+#social {
+  width: 20%;
+}
+
+table td {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1500px) {
+  #firstImg {
+    right: -10%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .original .historyFirstPart {
+    width: 60%;
+    margin-left: 20px;
+  }
+  #firstImg {
+    right: -5%;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 1rem 0;
+  }
+  #myCards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .avatar {
+    align-self: center;
+    margin-left: 0%;
+  }
+
+  .card {
+    margin: 1rem 0 0 0;
+    /* max-width: 20rem !important;
+    position: relative; */
+    z-index: 1;
+  }
+
+  #line {
+    width: 0.5rem;
+    height: 50%;
+    bottom: 0;
+    margin: 0;
+    transform: translateY(50%);
+  }
+
+  #myLine {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 3px;
+    width: 500px;
+    background-color: #14e5e5;
+    position: relative;
+    transform: rotate(90deg);
+    bottom: 350px;
+  }
+
+  #cardsLine {
+    position: relative;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #myMenu {
+    margin-top: 4rem;
+    position: absolute;
+    transform: translateX(30%);
+  }
+
+  #signUpButton .customButton {
+    width: 20rem !important;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  #loginRegist {
+    float: none;
+  }
+  hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .sideMenu {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #393054;
+    position: absolute;
+    color: #ffffff;
+    z-index: 1;
+  }
+  .sideMenu ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .sideMenu ul li {
+    margin: 1rem;
+    color: #ffffff !important;
+  }
+
+  #navBar ul li {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #firstImg {
+    right: 0%;
+    right: -5%;
+    padding-left: 25%;
+  }
+
+  #myIntro h1 {
+    font-size: 10vw;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  #intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+
+  #myIntro p {
+    width: 270px;
+  }
+  #menuButton {
+    display: inline-flex;
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  footer {
+    padding-bottom: 10%;
+  }
+  .original .historyFirstPart {
+    width: 50%;
+  }
+  .original .historySecondPart {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #navBar,
+  #myIntro {
+    padding: 5% 8%;
+  }
+  #firstImg {
+    padding-left: 20%;
+  }
+
+  #myMenu {
+    transform: translateX(10%);
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerLogo {
+    width: 100%;
+    text-align: center;
+  }
+  #footerDetails {
+    display: none;
+  }
+  #social {
+    width: 100%;
+  }
+  .socialMedia {
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .socialMedia li svg {
+    margin-right: 0rem;
+  }
+  .socialMedia li {
+    margin: 10px;
+  }
+  #on800px {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+  }
+  #on800px ul div {
+    font-weight: bold;
+    margin: 1rem;
+  }
+
+  #on800px ul li {
+    color: #999999;
+    margin: 0.2rem;
+  }
+
+  #on800px ul li:hover {
+    color: #1bd2d2;
+  }
+
+  #on800px ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #secondPart p {
+    width: 340px;
+  }
+
+  #inputStyle {
+    top: -115px;
+    display: inline-block;
+  }
+  #shortenIt {
+    display: block;
+    margin-top: 3rem;
+  }
+  #myShortenIt,
+  .input-group,
+  .form-control {
+    width: 100% !important;
+  }
+  .original {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-align: start;
+  }
+
+  .original .historyFirstPart {
+    margin: 10px;
+    width: 95%;
+  }
+
+  .original .historySecondPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+
+  .original .historySecondPart a {
+    display: block;
+    width: 100% !important;
+  }
+
+  .original hr {
+    display: block;
+    color: #999999;
+    margin-top: 0;
+  }
+  .copyButton .customButton {
+    width: 97% !important;
+    color: #ffffff;
+    margin: 10px 0 10px 0;
+    width: 50%;
+  }
+  #history {
+    top: -6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #firstImg {
+    padding-left: 15%;
+  }
+  #myMenu {
+    transform: translateX(-15%);
+  }
+}
